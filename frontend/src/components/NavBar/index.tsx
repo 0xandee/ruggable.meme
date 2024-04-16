@@ -1,8 +1,10 @@
+/* eslint-disable */
+/* prettier-ignore */
 import { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import headicon from 'src/assets/head-icon.png'
 import Box from 'src/theme/components/Box'
 import { Row } from 'src/theme/components/Flex'
-import * as Icons from 'src/theme/components/Icons'
 import * as Text from 'src/theme/components/Text'
 
 import Web3Status from '../Web3Status'
@@ -39,14 +41,9 @@ export default function NavBar() {
     <Box as="nav" className={styles.nav({ onTop: scrolledOnTop })}>
       <Row justifyContent="space-between">
         <Row gap="24">
-          <Box className={styles.logoContainer}>
-            <Icons.Logo
-              onClick={() => {
-                navigate({ pathname: '/' })
-              }}
-            />
-          </Box>
-
+          <Box as="img" src={headicon} className={styles.logoContainer} onClick={() => {
+            navigate({ pathname: '/' })
+          }} />
           <Box className={styles.navLinksContainer}>
             {links.map(({ name, path }) => (
               <Link key={path} to={path}>

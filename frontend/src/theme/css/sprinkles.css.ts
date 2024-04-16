@@ -131,11 +131,11 @@ export const vars = createGlobalTheme(':root', {
     text1: '#f7f7f7',
     text2: '#5D6775',
 
-    appGradient: `radial-gradient(50% 50% at 50% 30%, ${transparentize(0.9, '#6E44FF')}, transparent)`,
-    accentGradient: 'linear-gradient(215deg, #cc0033, #6E44FF)',
+    appGradient: `radial-gradient(50% 50% at 50% 30%, ${transparentize(0.9, '#F84C00')}, transparent)`,
+    accentGradient: 'linear-gradient(215deg, #cc0033, #F84C00)',
 
-    accentAlpha20: transparentize(0.8, '#6E44FF'),
-    accent: '#6E44FF',
+    accentAlpha20: transparentize(0.8, '#F84C00'),
+    accent: '#F84C00',
 
     error: '#ff003e',
 

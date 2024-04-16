@@ -1,3 +1,5 @@
+/* eslint-disable */
+/* prettier-ignore */
 import { style } from '@vanilla-extract/css'
 import { transparentize } from 'polished'
 import { sprinkles, vars } from 'src/theme/css/sprinkles.css'
@@ -33,8 +35,8 @@ export const backgroundContainer = style([
 export const background = style([
   {
     backgroundImage: `
-      linear-gradient(to bottom, ${transparentize(0.3, '#000000')}, ${vars.color.bg1}),
-      url("src/assets/background.png")
+      linear-gradient(to bottom, ${transparentize(1, '#000000')}, ${vars.color.bg1}),
+      url("src/assets/background-2.png")
     `,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
@@ -59,13 +61,23 @@ export const titleContainer = sprinkles({
 
 export const title = style([
   {
-    textShadow: '4px 4px 0 #000000',
-    color: 'white',
+    textShadow: '1.5px 1.5px 0 #F84C00',
+    color: '#FFFFFF',
+    fontFamily: 'Lily Script One',
   },
   sprinkles({
-    marginTop: '42',
+    marginTop: '32',
     marginBottom: '0',
     fontSize: { sm: '36', md: '64', lg: '72', xl: '96' },
+  }),
+])
+
+export const upperTitle = style([
+  sprinkles({
+    marginTop: '64',
+    marginBottom: '0',
+    maxHeight: { sm: 'full', md: 'full', lg: '180' },
+    marginX: 'auto',
   }),
 ])
 
@@ -78,8 +90,8 @@ export const subtitle = style([
 
 export const firstArticle = style([
   sprinkles({
-    marginTop: '128',
-    gap: '24',
+    marginTop: '64',
+    gap: '64',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',

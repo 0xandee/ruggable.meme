@@ -120,7 +120,7 @@ export default function DeployPage() {
             <Column gap="8">
               <Text.Body className={styles.inputLabel}>Name</Text.Body>
 
-              <Input placeholder="Unruggable" {...register('name')} />
+              <Input placeholder="Ruggable" {...register('name')} />
 
               <Box className={styles.errorContainer}>
                 {errors.name?.message ? <Text.Error>{errors.name.message}</Text.Error> : null}

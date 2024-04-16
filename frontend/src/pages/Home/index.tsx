@@ -1,6 +1,8 @@
+/* eslint-disable */
+/* prettier-ignore */
 import clsx from 'clsx'
 import { Link } from 'react-router-dom'
-import onlyonstarknet from 'src/assets/onlyonstarknet.png'
+import homeImage from 'src/assets/homeImage.png'
 import { PrimaryButton, SecondaryButton } from 'src/components/Button'
 import { ImportTokenModal } from 'src/components/ImportTokenModal'
 import { useImportTokenModal } from 'src/hooks/useModal'
@@ -20,16 +22,15 @@ export default function HomePage() {
         <Box as="span" className={clsx(styles.backgroundContainer, styles.background)} />
 
         <Column className={styles.titleContainer}>
+          <Box as="img" src={homeImage} className={styles.upperTitle} />
           <Text.Custom as="h1" className={styles.title}>
-            Unruggable Meme
+            Ruggable Meme
           </Text.Custom>
-          <Box as="img" src={onlyonstarknet} className={styles.subtitle} />
         </Column>
 
         <Column as="article" className={styles.firstArticle}>
           <Text.Custom className={styles.firstArticleText}>
-            Tired of getting rugpulled? Introducing Unruggable Meme, a memecoin standard and deployment tool designed to
-            ensure a maximum safety for memecoin traders.
+            Tired of being unruggable? Introducing Ruggable Meme, a project designed with no security and no transparency at its core. Our degenz contracts ensure unfair but secure experience for all users.
           </Text.Custom>
 
           <Row gap="16" className={styles.buttonContainer}>
