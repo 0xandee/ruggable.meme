@@ -30,7 +30,7 @@ export default function HomePage() {
 
         <Column as="article" className={styles.firstArticle}>
           <Text.Custom className={styles.firstArticleText}>
-            Tired of being unruggable? Introducing Ruggable Meme, a project designed with no security and no transparency at its core. Our degenz contracts ensure unfair but secure experience for all users.
+            Tired of being unruggable? Introducing Ruggable Meme, a project designed with somewhat security but still transparency at its core. Our degenz contracts ensure unfair but secure experience for all users.
           </Text.Custom>
 
           {/* <Row gap="16" className={styles.buttonContainer}>

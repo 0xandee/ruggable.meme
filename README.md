@@ -18,7 +18,7 @@
   <a href="https://ruggable.meme">https://ruggable.meme</a>
 </p>
 
-Tired of being _unruggable_? Introducing Ruggable Meme, a project designed with no security and no transparency at its core. Our degenz contracts ensure unfair but secure experience for all users.
+Tired of being _unruggable_? Introducing Ruggable Meme, a project designed with somewhat security but still transparency at its core. Our degenz contracts ensure unfair but secure experience for all users.
 
 Become a meme lord and launch your riskiest memecoin with [Ruggable Meme](https://ruggable.meme)! And as a memecoin tradoor, you can use [Ruggable Meme](https://ruggable.meme) to check if a memecoin is ruggable before investing.
 
