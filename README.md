@@ -22,7 +22,7 @@ Tired of being _unruggable_? Introducing Ruggable Meme, a project designed with 
 
 Become a meme lord and launch your riskiest memecoin with [Ruggable Meme](https://ruggable.meme)! And as a memecoin tradoor, you can use [Ruggable Meme](https://ruggable.meme) to check if a memecoin is ruggable before investing.
 
-## BECOME RUGGABLE HOW!? 👇
+## BECOME RUGGABLE, HOW!? 👇
 
 Before creating the token, the meme lord must set a timer. When the timer ends, `RUG_IT` function will be unlocked for the owner, who can decide to `RUG_IT` anytime. **MEME LORD CAN RUG ENTIRE LIQUIDITY POOL.** Watchout tradoors!
 
