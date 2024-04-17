@@ -33,7 +33,7 @@ export default function HomePage() {
             Tired of being unruggable? Introducing Ruggable Meme, a project designed with no security and no transparency at its core. Our degenz contracts ensure unfair but secure experience for all users.
           </Text.Custom>
 
-          <Row gap="16" className={styles.buttonContainer}>
+          {/* <Row gap="16" className={styles.buttonContainer}>
             <Link to="/deploy">
               <PrimaryButton className={styles.firstArticleButton}>Deploy</PrimaryButton>
             </Link>
@@ -41,7 +41,10 @@ export default function HomePage() {
             <SecondaryButton className={styles.firstArticleButton} onClick={toggleImportTokenModel}>
               Check token
             </SecondaryButton>
-          </Row>
+          </Row> */}
+          <SecondaryButton className={styles.firstArticleButton}>
+            Comming soon
+          </SecondaryButton>
         </Column>
       </Box>
 

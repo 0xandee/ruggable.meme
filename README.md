@@ -24,15 +24,15 @@ Become a meme lord and launch your riskiest memecoin with [Ruggable Meme](https:
 
 ## BECOME RUGGABLE HOW!? 👇
 
-Before creating the token, the meme lord must set a timer. When the timer ends, `RUG_IT` function will be unlocked for the owner, who can decide to `RUG_IT` anytime.
+Before creating the token, the meme lord must set a timer. When the timer ends, `RUG_IT` function will be unlocked for the owner, who can decide to `RUG_IT` anytime. **MEME LORD CAN RUG ENTIRE LIQUIDITY POOL.** Watchout tradoors!
 
-> ⚠️⚠️⚠️
->
-> **MEME LORD WILL RUG ENTIRE LIQUIDITY POOL**
-> Watchout tradoors!
->
-> ⚠️⚠️⚠️
+## TODO
 
-## 📖 License
+-   [ ] Ruggable smart contracts (I'm currently working on this)
+-   [ ] Ruggable contract deploy flow
+-   [ ] The `RUG_IT` function can be opened up to all token holders.
+-   [ ] Specific quests can be implemented for holders can achives, which set by meme lords in order to further extend `RUG` timer.
+
+## License 📖
 
 This project is licensed under the **MIT license**. See [LICENSE](LICENSE) for more information.

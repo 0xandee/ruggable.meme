@@ -11,14 +11,14 @@ import Web3Status from '../Web3Status'
 import * as styles from './style.css'
 
 export const links = [
-  {
-    name: 'Deploy',
-    path: '/deploy',
-  },
-  {
-    name: 'My tokens',
-    path: '/tokens',
-  },
+  // {
+  //   name: 'Deploy',
+  //   path: '/deploy',
+  // },
+  // {
+  //   name: 'My tokens',
+  //   path: '/tokens',
+  // },
 ]
 
 export default function NavBar() {

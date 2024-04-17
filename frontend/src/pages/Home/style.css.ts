@@ -61,9 +61,9 @@ export const titleContainer = sprinkles({
 
 export const title = style([
   {
-    textShadow: '1.5px 1.5px 0 #F84C00',
-    color: '#FFFFFF',
-    fontFamily: 'Lily Script One',
+    // textShadow: '0px 0 0 #FFFFFF',
+    color: '#F84C00',
+    fontFamily: '',
   },
   sprinkles({
     marginTop: '32',

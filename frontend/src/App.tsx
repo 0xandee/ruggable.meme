@@ -1,5 +1,6 @@
+/* eslint-disable */
+/* prettier-ignore */
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-
 import AppLayout from './components/Layout/App'
 import HomeLayout from './components/Layout/Home'
 import DeployPage from './pages/Deploy'
@@ -17,30 +18,30 @@ const router = createBrowserRouter([
       </HomeLayout>
     ),
   },
-  {
-    path: '/deploy',
-    element: (
-      <AppLayout>
-        <DeployPage />
-      </AppLayout>
-    ),
-  },
-  {
-    path: '/tokens',
-    element: (
-      <AppLayout>
-        <TokensPage />
-      </AppLayout>
-    ),
-  },
-  {
-    path: '/token/:address',
-    element: (
-      <AppLayout>
-        <TokenPage />
-      </AppLayout>
-    ),
-  },
+  // {
+  //   path: '/deploy',
+  //   element: (
+  //     <AppLayout>
+  //       <DeployPage />
+  //     </AppLayout>
+  //   ),
+  // },
+  // {
+  //   path: '/tokens',
+  //   element: (
+  //     <AppLayout>
+  //       <TokensPage />
+  //     </AppLayout>
+  //   ),
+  // },
+  // {
+  //   path: '/token/:address',
+  //   element: (
+  //     <AppLayout>
+  //       <TokenPage />
+  //     </AppLayout>
+  //   ),
+  // },
   {
     path: '/wallet-redirect/:redirectUrl',
     element: <WalletRedirect />,
