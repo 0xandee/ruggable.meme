@@ -30,7 +30,7 @@ Before creating the token, meme lords must set a timer. When the timer ends, `RU
 
 -   [ ] Smart contracts (In Development)
 -   [ ] FE: Deploy flow for meme lords
--   [ ] FE: Ruggable contract deploy flow for meme lords
+-   [ ] FE: Flow for users to check Ruggable tokens
 -   [ ] `RUG_IT` feature can be call by all token holders with some catch.
 -   [ ] `UNRUG_CHALLENGE(s)` will be set by meme lords prelaunch and transparently with tradoors in order to further extend `RUG_IT` timer. **It's gonna be CRAZY!!!**
 
