@@ -36,7 +36,7 @@ export const background = style([
   {
     backgroundImage: `
       linear-gradient(to bottom, ${transparentize(1, '#000000')}, ${vars.color.bg1}),
-      url("src/assets/background-2.png")
+      url("src/assets/background-1.png")
     `,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
@@ -61,22 +61,20 @@ export const titleContainer = sprinkles({
 
 export const title = style([
   {
-    // textShadow: '0px 0 0 #FFFFFF',
     color: '#F84C00',
-    fontFamily: '',
   },
   sprinkles({
-    marginTop: '32',
+    marginTop: '16',
     marginBottom: '0',
-    fontSize: { sm: '36', md: '64', lg: '72', xl: '96' },
+    fontSize: { sm: '36', md: '64', lg: '72', xl: '72' },
   }),
 ])
 
-export const upperTitle = style([
+export const upperTitleImage = style([
   sprinkles({
     marginTop: '64',
     marginBottom: '0',
-    maxHeight: { sm: 'full', md: 'full', lg: '180' },
+    maxHeight: { sm: '180', md: '180', lg: '180' },
     marginX: 'auto',
   }),
 ])
@@ -90,8 +88,9 @@ export const subtitle = style([
 
 export const firstArticle = style([
   sprinkles({
-    marginTop: '64',
-    gap: '64',
+    marginTop: '32',
+    marginBottom: '32',
+    gap: '16',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -105,15 +104,15 @@ export const firstArticleText = style([
     maxWidth: '1200px',
   },
   sprinkles({
-    fontSize: { sm: '18', md: '24', lg: '24' },
     fontWeight: 'normal',
+    fontSize: { sm: '18', md: '24', lg: '24' },
   }),
 ])
 
 export const firstArticleButton = style([
-  sprinkles({
-    width: '180',
-  }),
+  {
+    width: '90',
+  }
 ])
 
 export const buttonContainer = style([

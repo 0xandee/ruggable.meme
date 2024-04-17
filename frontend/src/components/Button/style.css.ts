@@ -55,7 +55,7 @@ export const primaryButton = recipe({
     disabled: {
       true: [
         {
-          background: `${vars.color.bg2} !important`,
+          background: `${vars.color.accent} !important`,
           outline: 'none !important',
           cursor: 'default !important',
         },

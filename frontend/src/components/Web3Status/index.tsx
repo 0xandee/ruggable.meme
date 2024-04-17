@@ -5,7 +5,7 @@ import { Row } from 'src/theme/components/Flex'
 import * as Icons from 'src/theme/components/Icons'
 import { shortenL2Address } from 'src/utils/address'
 
-import { PrimaryButton, SecondaryButton } from '../Button'
+import { SecondaryButton } from '../Button'
 import WalletConnectModal from '../WalletModal/Connect'
 import { L2WalletOverviewModal } from '../WalletModal/Overview'
 import * as styles from './style.css'
@@ -32,9 +32,9 @@ function Web3StatusContent() {
     )
   } else {
     return (
-      <PrimaryButton onClick={toggleWalletConnectModal} minWidth="180">
+      <SecondaryButton onClick={toggleWalletConnectModal} minWidth="64">
         Connect wallet
-      </PrimaryButton>
+      </SecondaryButton>
     )
   }
 }

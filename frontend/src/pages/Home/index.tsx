@@ -22,7 +22,7 @@ export default function HomePage() {
         <Box as="span" className={clsx(styles.backgroundContainer, styles.background)} />
 
         <Column className={styles.titleContainer}>
-          <Box as="img" src={homeImage} className={styles.upperTitle} />
+          <Box as="img" src={homeImage} className={styles.upperTitleImage} />
           <Text.Custom as="h1" className={styles.title}>
             Ruggable Meme
           </Text.Custom>
@@ -30,10 +30,10 @@ export default function HomePage() {
 
         <Column as="article" className={styles.firstArticle}>
           <Text.Custom className={styles.firstArticleText}>
-            Tired of being unruggable? Introducing Ruggable Meme, a project designed with somewhat security but still transparency at its core. Our degenz contracts ensure unfair but secure experience for all users.
+            Launch - Challenge - RUG 💨
           </Text.Custom>
-
-          {/* <Row gap="16" className={styles.buttonContainer}>
+        </Column>
+        {/* <Row gap="16" className={styles.buttonContainer}>
             <Link to="/deploy">
               <PrimaryButton className={styles.firstArticleButton}>Deploy</PrimaryButton>
             </Link>
@@ -42,10 +42,9 @@ export default function HomePage() {
               Check token
             </SecondaryButton>
           </Row> */}
-          <SecondaryButton className={styles.firstArticleButton}>
-            Comming soon
-          </SecondaryButton>
-        </Column>
+        <PrimaryButton className={styles.firstArticleButton} disabled>
+          Comming soon
+        </PrimaryButton>
       </Box>
 
       <ImportTokenModal />
