@@ -9,7 +9,6 @@ import { useImportTokenModal } from 'src/hooks/useModal'
 import Box from 'src/theme/components/Box'
 import { Column, Row } from 'src/theme/components/Flex'
 import * as Text from 'src/theme/components/Text'
-
 import * as styles from './style.css'
 
 export default function HomePage() {
@@ -19,10 +18,13 @@ export default function HomePage() {
   return (
     <>
       <Box className={styles.container}>
-        <Box as="span" className={clsx(styles.backgroundContainer, styles.background)} />
-
+        <Box as="span" className={clsx(styles.backgroundContainer, styles.backgroundImage)} />
+        <video autoPlay loop muted className={clsx(styles.backgroundContainerVideo)}>
+          <source src={"https://videocdn.cdnpk.net/joy/content/video/free/video0485/large_preview/_import_61b86b354a7052.93508645.mp4?filename=1118595_macro_4k_pattern_3840x2160.mp4"} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <Column className={styles.titleContainer}>
-          <Box as="img" src={homeImage} className={styles.upperTitleImage} />
+          {/* <Box as="img" src={homeImage} className={styles.upperTitleImage} /> */}
           <Text.Custom as="h1" className={styles.title}>
             Ruggable Meme
           </Text.Custom>
@@ -30,7 +32,7 @@ export default function HomePage() {
 
         <Column as="article" className={styles.firstArticle}>
           <Text.Custom className={styles.firstArticleText}>
-            Launch - Challenge - RUG 💨
+            Launch → Challenge → Rug 💨
           </Text.Custom>
         </Column>
         {/* <Row gap="16" className={styles.buttonContainer}>
@@ -42,7 +44,7 @@ export default function HomePage() {
               Check token
             </SecondaryButton>
           </Row> */}
-        <PrimaryButton className={styles.firstArticleButton} disabled>
+        <PrimaryButton className={styles.firstArticleButton} large>
           Comming soon
         </PrimaryButton>
       </Box>

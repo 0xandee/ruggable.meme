@@ -21,22 +21,22 @@ export const container = style([
 
 export const backgroundContainer = style([
   {
-    zIndex: '-99',
+    zIndex: '-1',
     position: 'absolute',
     top: '0',
     right: '0',
     bottom: '0',
     left: '0',
     height: '100vh',
-    maxHeight: '1000px',
   },
 ])
 
-export const background = style([
+export const backgroundContainerVideo = style([{ position: 'fixed', top: '0', right: '0', bottom: '0', left: '0', width: '100vw', height: '100vh', objectFit: 'cover', zIndex: '-2', backgroundPosition: 'center', backgroundSize: 'cover', }, { '@media': { '(max-width: 768px)': { width: '100vw', height: '100vh', objectFit: 'cover' }, }, }])
+
+export const backgroundImage = style([
   {
     backgroundImage: `
-      linear-gradient(to bottom, ${transparentize(1, '#000000')}, ${vars.color.bg1}),
-      url("src/assets/background-1.png")
+      linear-gradient(to bottom, rgb(0 0 0 / 50%), ${vars.color.bg1})
     `,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
@@ -62,9 +62,9 @@ export const titleContainer = sprinkles({
 export const title = style([
   {
     color: '#F84C00',
+    marginTop: '216px',
   },
   sprinkles({
-    marginTop: '16',
     marginBottom: '0',
     fontSize: { sm: '36', md: '64', lg: '72', xl: '72' },
   }),
@@ -89,7 +89,7 @@ export const subtitle = style([
 export const firstArticle = style([
   sprinkles({
     marginTop: '32',
-    marginBottom: '32',
+    marginBottom: '42',
     gap: '16',
     display: 'flex',
     alignItems: 'center',

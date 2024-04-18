@@ -31,16 +31,16 @@ export const primaryButton = recipe({
     sprinkles({
       paddingX: '16',
       border: 'none',
-      background: 'accent',
+      background: {
+        default: 'accent',
+        hover: 'accentAlpha20',
+      },
       color: 'text1',
       position: 'relative',
       outlineColor: 'accent',
       outlineStyle: 'solid',
-      outlineWidth: {
-        default: '0px',
-        hover: '1px',
-        active: '1px',
-      },
+      outlineWidth: '0px',
+      transitionDuration: '250',
     }),
   ],
 
@@ -86,7 +86,7 @@ export const secondaryButton = recipe({
         default: 'text1',
         hover: 'bg1',
       },
-      transitionDuration: '125',
+      transitionDuration: '250',
     }),
   ],
 
